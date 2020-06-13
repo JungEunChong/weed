@@ -3,12 +3,18 @@
 int main() {
 	int a;
 	int b;
+	char ca;
+	char cb;
+
 	printf("a : ");
 	scanf("%d", &a);
 
+	printf("ca : ");
+	scanf(" %c", &ca);
+
 	for(int i = 0; i < a; i++) {
 		for(int j = a; j > i; j--) {
-			printf("*");
+			printf("%c", ca);
 		}
 		printf("\n");
 	}
@@ -16,9 +22,12 @@ int main() {
 	printf("\nb : ");
 	scanf("%d", &b);
 
+	printf("cb : ");
+	scanf(" %c", &cb);
+
 	for(int i = 0; i < b; i++) {
 		for(int j = 0; j <= i; j++) {
-			printf("#");
+			printf("%c", cb);
 		}
 		printf("\n");
 	}
