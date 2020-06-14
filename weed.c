@@ -6,6 +6,8 @@ int main() {
 	char ca;
 	char cb;
 
+	printf("/// Triangle ///\n\n");
+
 	printf("a : ");
 	scanf("%d", &a);
 
