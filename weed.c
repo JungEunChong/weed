@@ -34,5 +34,7 @@ int main() {
 		printf("\n");
 	}
 
+	printf("/// END ///\n");
+
 	return 0;
 }
